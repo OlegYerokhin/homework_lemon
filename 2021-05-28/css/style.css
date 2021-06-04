@@ -1,0 +1,10 @@
+dl dt {
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+
+dl dt::after {
+    content: ':';
+}
