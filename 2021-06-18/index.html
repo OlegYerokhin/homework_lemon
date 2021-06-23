@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+    <link type="text/css" rel="stylesheet" href="./css/x-editable.css">
+    <title>X-Editable</title>
+</head>
+<body>
+    <div class="container">
+        <dl class="user-data">
+            <dt>Firstname</dt>
+            <dd>
+                <span id="firstname" data-editable='text'>John</span>
+            </dd>
+    
+            <dt>Lastname</dt>
+            <dd>
+                <span id="lastname" data-editable='text'>Doe</span>
+            </dd>
+    
+            <dt>Email</dt>
+            <dd>
+                <a href="#" id="email" data-editable='email'>doe@mail.com</a>
+            </dd>
+    
+            <dt>Password</dt>
+            <dd>
+                <span id="password" data-editable='password'>111111</span>
+            </dd>
+    
+            <dt>Age</dt>
+            <dd>
+                <span id="age" data-editable='number'></span>
+            </dd>
+        </dl>
+    </div>
+
+    
+    <script src="./js/x-editable.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
